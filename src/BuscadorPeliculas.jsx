@@ -3,7 +3,7 @@ import { useState } from "react"
 export const BuscadorPeliculas = () => {
 
     const urlBase = "https://api.themoviedb.org/3/search/movie"
-    const KEY_URL = "bed5b351395e2ee956442f0135b79d3f"
+    const KEY_URL = "INSERT_YOUR_API_KEY"
 
     const [busqueda, setBusqueda] = useState('')
 
